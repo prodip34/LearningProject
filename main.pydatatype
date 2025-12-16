@@ -1,0 +1,48 @@
+# Variables 
+x = 69
+discord = "prodip34"
+# Data type 
+# 1. int
+age = 18
+#2. float 
+Price = 69.99
+#3. string(str)
+Nickname = 'VORTEXO'
+#4. boolean(bool)
+is_student_and_gamer =True
+#5. list 
+numbers = [1,2,3,6,5,4,7,8,5,7,8,]
+#6.tuple
+coordinates = (20,45,45)
+#7 set
+unique_numbers = {69,34}
+#8 Dictinory 
+student = {
+    "name": "Prodip",
+    "age": 17,
+    "is_student_and_gamer": True
+}
+
+# NoneType example
+
+result = None
+
+print("Result value:", result)
+print("Data type of result:", type(result))
+
+# Checking condition
+if result is None:
+    print("Result is empty (None)")
+else:
+    print("Result has some value")
+print(x)
+print(discord)
+print(age)
+print(Price)
+print(Nickname)
+print(is_student_and_gamer)
+print(numbers)
+print(coordinates)
+print(unique_numbers)
+print(student)
+
